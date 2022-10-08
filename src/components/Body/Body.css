@@ -3,15 +3,34 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 400px;
+    font-family: Roboto sans-serif;
+    font-size: 24px;
 }
 
-img{
-    max-width: 648px;
-    max-height: 1185px;
+img {
+    max-width: 100%;
 }
 
 span{
     padding: 5px;
     background-color: lightgray;
+}
+
+.section{
+    width: 100%;
+}
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.list p{
+    margin-bottom: 0;
+    margin-left: 15px;
 }
