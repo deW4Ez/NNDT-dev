@@ -1,0 +1,17 @@
+.bodyFrame{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 200px;
+}
+
+img{
+    max-width: 648px;
+    max-height: 1185px;
+}
+
+span{
+    padding: 5px;
+    background-color: lightgray;
+}
